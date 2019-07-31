@@ -1,6 +1,6 @@
 [package]
 name = "likh"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Jagadeesh Kotra <jagadeesh@maxfunc.com>"]
 license = "MIT"
 description = "Likh - library to read and write to text and CSV files."
