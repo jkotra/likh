@@ -1,0 +1,10 @@
+[package]
+name = "likh"
+version = "0.1.0"
+authors = ["Jagadeesh Kotra <jagadeesh@maxfunc.com>"]
+license = "MIT"
+description = "Likh - library to read and write to text and CSV files."
+repository = "https://github.com/jkotra/likh"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
