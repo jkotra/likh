@@ -8,7 +8,7 @@ Please review source code carefully before production usage.
 - Read a file
 
 ```rust 
-read_from_file("");
+read_from_file("filename.txt");
 ```
 ---
 
