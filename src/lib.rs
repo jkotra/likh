@@ -33,7 +33,7 @@ pub fn write_to_csv<'a> (content: Vec<Vec<&str>>,file_path: &str) {
     let mut file = OpenOptions::new().append(true).create(true).open(file_path).unwrap();
     for row in content{
         let row_content = row.join(",");
-        write!(&mut file, "{}\n",row_content).expect("Unable t owrite to file!")
+        write!(&mut file, "{}\n",row_content).expect("Unable to write to file!")
     }
 }
 
@@ -52,8 +52,8 @@ mod tests {
 
     #[test]
     fn write_test() {
-        super::write_to_file("tests/writetome.txt", "Test123#123#");
+        super::write_to_file("tests/writetome.txt", "Hello, World!");
         let read_output = super::read_from_file("tests/writetome.txt");
-        assert_eq!(read_output, "Test123#123#");
+        assert_eq!(read_output, "Hello, World!");
     }
  }
